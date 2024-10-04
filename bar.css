@@ -14,9 +14,10 @@ nav{
 }
 
 .group{ 
-    width: 620px;
+    width: 415px;
     height: 200px;
     border: 1px solid black;
+    text-align: center;
 }
 
 img{
