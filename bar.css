@@ -1,0 +1,47 @@
+body{
+    background-color: darkcyan;
+}
+nav{
+    background-color: whitesmoke;
+    display: flex;
+    
+}
+.beginging{
+    padding: 10px;
+    margin: 2px; 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.group{ 
+    width: 620px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+img{
+    width: auto;
+    height: auto;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    background-color: #333;
+    color: fff;
+    position: relative;
+    animation-name:pics;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+}
+
+@keyframes pic {
+    from{
+        background-color: black;
+        left: 0;
+    }
+    /* to{
+        background-color: red;
+        left: 100%;
+    } */
+} 
